@@ -1,0 +1,102 @@
+
+.logo{
+width: 9%;
+margin-left: 86px;
+}
+.banner{
+margin-bottom: 20px;
+}
+.nav{
+	background: #D5D5D5;
+	width: 105%;
+	margin-left: -8px;
+	margin-top: -126px;
+	height: 2%;
+}
+.nav a{
+	text-decoration: none;
+  color: black;
+  font-family: 'Helvetica';
+  margin-left: 100px;
+}
+.nav ul li{
+	display: inline-block;
+}
+.header h2{
+	color: white;
+	margin-top: -320px;
+	margin-left: 230px;
+	font-size: 45px;
+	margin-bottom: -10px;
+}
+.header h3{
+	color: white;
+	margin-top: 20px;
+	margin-left: 230px;
+	font-size: 33px;
+	margin-bottom: 150px;
+}
+.info{
+	margin-top: 10px;
+	background: rgb(202, 202, 202);
+	font-family: 'Helvetica';
+	padding: 70px;
+	padding-left: 237px;
+}
+.info h4{
+	font-size: 155%;
+	font-family: v;
+	margin-top: -27px;	
+}
+.info p{
+	padding-right: 198px;
+	margin-bottom: -112px;
+	font-size: 14px;
+}
+.uno{
+	background: rgb(79, 143, 194);
+	padding: 15px;
+	color: rgb(246, 248, 250);
+	width: 21%;
+	font-size: 16px;
+	margin-left: 663px;
+	margin-top: 36px;
+}
+.buttons{
+	margin-top: 92px;
+	background: rgb(240, 240, 240);
+	padding: 36px;
+}
+.dos{
+	background: rgb(79, 143, 194);
+	padding: 18px;
+	color: rgb(246, 248, 250);
+	width: 26%;
+	padding-left: 11px;
+	padding-right: 16px;
+	border-radius: 25px;
+	margin-left: 48px;
+}
+
+.imags h3{
+	text-align: center;
+	margin-bottom: 42px;
+}
+.imags{
+	padding:10px;
+
+}
+.imags img{
+	margin-left: 72px;
+	margin-bottom: 38px;
+}
+.imags a{
+	text-align: center;
+	text-decoration: none;
+	color: rgb(63, 167, 201);
+	margin-left: 500px;
+}
+hr{
+	margin-top: 56px;
+	background: grey;
+}
