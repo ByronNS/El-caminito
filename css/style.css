@@ -1,81 +1,113 @@
+/* #header */
+/* #nav-header */
+/* #text */
+/* #info */
+/* #buttons */
+/* #imags */
+/* #news */
+/* #events */
+/* #reservations */
+/* #footer */
+/* #contact */
 
+
+a{
+	text-decoration: none;
+}
+.header{
+	margin-top: -10px;
+}
+.nav-header{
+	background: #D5D5D5;
+	width: 100%;
+	height: 70px;
+  position: fixed;
+  margin-top: 10px;
+}
+.list-nav{
+	margin-left: 185px;
+
+}
+.list-nav a{
+	list-style: none;
+	color: black;
+	font-size: 14px;
+	padding: 10px;
+}
+.list-nav a:hover{
+	background: white;
+	padding: 29px 10px;
+
+}
 .logo{
-width: 9%;
-margin-left: 86px;
+	width: 9%;
+	margin-left: 86px;
+	position: fixed;
 }
 .banner{
-margin-bottom: 20px;
+	margin-bottom: 20px;
 }
-.nav{
-	background: #D5D5D5;
-	width: 105%;
-	margin-left: -8px;
-	margin-top: -126px;
-	height: 2%;
-}
-.nav a{
-	text-decoration: none;
-  color: black;
-  font-family: 'Helvetica';
-  margin-left: 100px;
-}
-.nav ul li{
+.list-nav li{
 	display: inline-block;
+	padding: 10px;
 }
-.header h2{
+.text h2{
 	color: white;
 	margin-top: -320px;
 	margin-left: 230px;
-	font-size: 45px;
+	font-size: 35px;
 	margin-bottom: -10px;
 }
-.header h3{
+.text h3{
 	color: white;
 	margin-top: 20px;
 	margin-left: 230px;
-	font-size: 33px;
+	font-size: 25px;
 	margin-bottom: 150px;
 }
 .info{
 	margin-top: 10px;
 	background: rgb(202, 202, 202);
 	font-family: 'Helvetica';
-	padding: 70px;
-	padding-left: 237px;
+	padding: 95px;
+	padding-left: 190px;
 }
 .info h4{
 	font-size: 155%;
-	font-family: v;
 	margin-top: -27px;	
 }
 .info p{
 	padding-right: 198px;
 	margin-bottom: -112px;
-	font-size: 14px;
+	font-size: 17px;
 }
 .uno{
 	background: rgb(79, 143, 194);
 	padding: 15px;
 	color: rgb(246, 248, 250);
-	width: 21%;
-	font-size: 16px;
-	margin-left: 663px;
-	margin-top: 36px;
+	width: 18%;
+	font-size: 15px;
+	margin-left: 813px;
+	margin-top: 15px;
+	border: 0px solid;
+	margin-bottom: 15px;
 }
 .buttons{
 	margin-top: 92px;
 	background: rgb(240, 240, 240);
 	padding: 36px;
 }
-.dos{
+.dos {
 	background: rgb(79, 143, 194);
-	padding: 18px;
+	padding: 16px;
 	color: rgb(246, 248, 250);
-	width: 26%;
-	padding-left: 11px;
+	width: 24%;
+	padding-left: 8px;
 	padding-right: 16px;
 	border-radius: 25px;
-	margin-left: 48px;
+	margin-left: 70px;
+	border: 0px solid;
+	font-size: 12px;
 }
 
 .imags h3{
@@ -86,9 +118,13 @@ margin-bottom: 20px;
 	padding:10px;
 
 }
-.imags img{
-	margin-left: 72px;
+.imags ul{
+	margin-left: 90px;
 	margin-bottom: 38px;
+}
+.imags li{
+	display: inline-block;
+	margin-left: 30px;
 }
 .imags a{
 	text-align: center;
@@ -97,6 +133,110 @@ margin-bottom: 20px;
 	margin-left: 500px;
 }
 hr{
-	margin-top: 56px;
-	background: grey;
+	margin-top: 80px;
+	background: rgb(167, 165, 165);
+}
+.news {
+	margin-left: 100px;
+	margin-top: 40px;
+	width: 35%;
+}
+.news h3{
+	font-size: 18px;
+	font-family: 'Arial';
+}
+.more{
+	color: #77b1c9;
+}
+span{
+	color: #468bb2;
+	font-size: 17px;
+}
+.news p{
+	font-size: 12px;
+}
+.news hr{
+	margin-top: 20px;
+}
+.more-rigth{
+	margin-left: 310px;
+	font-size: 13px;
+}
+.events {
+	margin-left: 575px;
+	margin-top: -466px;
+	width: 25%;
+	margin-bottom: 150px;
+} 
+.events h3{
+	font-size: 18px;
+	font-family: 'Arial';
+}
+span{
+	color: #468bb2;
+	font-size: 17px;
+}
+.date{
+	color: black;
+	margin-top: 8px;
+	margin-bottom: 4px;
+	font-size: 15px;
+}
+.events p{
+	font-size: 12px;
+}
+.events hr{
+	margin-top: 20px;
+}
+.more-rigth{
+	margin-left: 310px;
+	font-size: 13px;
+}
+.reservations{
+	margin-left: 930px;
+	margin-top: -494px;
+	width: 14%;
+	margin-bottom: 150px;
+	font-size: 13px;
+}
+.reservations h3{
+	font-size: 20px;
+}
+.tree{
+	background: rgb(81, 134, 177);
+	padding: 15px;
+	color: rgb(246, 248, 250);
+	width: 60%;
+	font-size: 15px;
+	margin-left: -1px;
+	margin-top: 15px;
+	border: 0px solid;
+	margin-bottom: 15px;
+}
+.footer-global{
+	background: rgb(246, 244, 244);
+	height: 300px;
+}
+.footer-left{
+	margin-left: 100px;
+	padding: 50px;
+}
+.footer-left ul{
+	margin-top: -33px;
+	margin-left: 175px;
+	list-style: none;
+}
+.footer-left li{
+	text-decoration: none;
+}
+.footer-left a{
+	color: rgb(63, 167, 201);
+}
+.footer-right {
+width: 25%;
+margin-left: 740px;
+margin-top: -205px;
+}
+.footer-right p{
+	font-size: 13px;
 }
